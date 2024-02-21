@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  nav {
+    background-color: #333;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+  }
+  
+  nav a:hover {
+    color: yellow;
+  }
+  
+  #logo {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  #logo img {
+    width: 150px;
+    height: auto;
+  }
+  
+  section {
+    margin: 20px;
+  }
+  
+  section h1 {
+    margin-bottom: 10px;
+  }
+  
+  section p {
+    text-align: justify;
+  }
+  
+  section ul, section ol {
+    padding-left: 20px;
+  }
+  
+  section ul li, section ol li {
+    margin-bottom: 10px;
+  }
+  
+  section ul li::before {
+    content: "\2022"; /* Bullet character */
+    color: #333;
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+  }
+  
+  section ol {
+    list-style: decimal;
+  }
+  
+  section ol li {
+    margin-bottom: 10px;
+  }
+  
+  section #alumno ul {
+    list-style: none;
+  }
+  
+  section #alumno ul li {
+    margin-bottom: 5px;
+  }
